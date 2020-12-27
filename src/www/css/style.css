@@ -23,13 +23,14 @@ body {
 
 	font-family: 'Special Elite', cursive;
 
-	background-color: #eef;
-	color: #111;
+	background-color: #eee;
+	color: #333;
 }
 
 h1 {
 	line-height: 1;
 	font-size: 20vmin;
+	filter: blur(1px);
 }
 
 div {
