@@ -23,8 +23,19 @@ body {
 
 	font-family: 'Special Elite', cursive;
 
-	background-color: #eee;
+	background-color: #333;
 	color: #333;
+
+	animation: bgcolor 2s ease 0.5s forwards;
+}
+
+@keyframes bgcolor {
+	0% {
+		background-color: #333;
+	}
+	100% {
+		background-color: #eee;
+	}
 }
 
 h1 {
@@ -40,6 +51,11 @@ div {
 }
 
 a {
-	color: #369;
+	color: #333;
 	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
 }
